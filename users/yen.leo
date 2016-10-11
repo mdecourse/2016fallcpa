@@ -28,7 +28,7 @@
 <v t="amd.20161004095719.1" a="E"><vh>封面投影片</vh>
 <v t="amd.20161004095719.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="amd.20161004104820.1" a="E"><vh>三大主題教學</vh>
+<v t="amd.20161004104820.1"><vh>三大主題教學</vh>
 <v t="amd.20161004104641.1" a="E"><vh>主題教學</vh>
 <v t="amd.20161004104641.2"><vh>計算機程式在教什麼?</vh></v>
 </v>
@@ -48,7 +48,21 @@
 <v t="amd.20161004105716.2"><vh>高效執行力</vh></v>
 </v>
 </v>
-<v t="amd.20161004101327.1" a="E"><vh>MD 投影片 (標題)</vh>
+<v t="yen.20161011122932.1" a="E"><vh>自學力訓練</vh>
+<v t="yen.20161011122601.1" a="E"><vh>自學的材料</vh>
+<v t="yen.20161011122601.2"><vh>自學 Python3</vh></v>
+</v>
+<v t="yen.20161011122957.1" a="E"><vh>Python 執行環境</vh>
+<v t="yen.20161011122957.2"><vh>在哪裡執行?</vh></v>
+</v>
+<v t="yen.20161011123951.1" a="E"><vh>Python 解譯器</vh>
+<v t="yen.20161011123951.2"><vh>Python 解譯器</vh></v>
+</v>
+<v t="yen.20161011124118.1" a="E"><vh>Python 版次</vh>
+<v t="yen.20161011124118.2"><vh>Python 2 或 3?</vh></v>
+</v>
+</v>
+<v t="amd.20161004101327.1"><vh>MD 投影片 (標題)</vh>
 <v t="amd.20161004101327.2"><vh>利用 MD 寫內容</vh></v>
 </v>
 <v t="amd.20161004112026.1" a="E"><vh>計算機程式課程內涵</vh>
@@ -881,6 +895,79 @@ Diff...
 ## 從中體會學習的意義
 
 
+</t>
+<t tx="yen.20161011122601.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="yen.20161011122601.2"># 自學 Python3
+
+[Python3 程式範例](https://github.com/mdecourse/2016fallcp/blob/master/python3program.py)
+### 在哪裡執行?
+### 如何執行?
+### 如何寫心得?
+### 如何錄製操作過程?
+</t>
+<t tx="yen.20161011122932.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="yen.20161011122957.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="yen.20161011122957.2"># 在哪裡執行?
+
+### 單機操作系統中 (近端)
+### 單機連結到遠端主機中 (遠端)
+### 瀏覽器中 (網際端)
+</t>
+<t tx="yen.20161011123951.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="yen.20161011123951.2"># Python 解譯器
+
+CPython: https://www.python.org/
+
+(Anaconda: https://www.continuum.io/downloads)
+    
+IronPython (.NET): http://ironpython.net/
+
+Jython (Java): http://www.jython.org/
+
+Pypy (Python): http://pypy.org/
+
+Brython (Javascript): https://www.brython.info/
+</t>
+<t tx="yen.20161011124118.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="yen.20161011124118.2"># Python 2 或 3?
+
+### 業界大部份仍以 2.7 版為主
+但是, 若沒有特別約束
+### 建議直接學習 Python3
 </t>
 </tnodes>
 </leo_file>
