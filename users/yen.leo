@@ -30,16 +30,22 @@
 </v>
 <v t="amd.20161004104820.1" a="E"><vh>三大主題教學</vh>
 <v t="amd.20161004104641.1" a="E"><vh>主題教學</vh>
-<v t="amd.20161004104641.2"><vh>機械設計主題教學</vh></v>
+<v t="amd.20161004104641.2"><vh>計算機程式在教什麼?</vh></v>
 </v>
-<v t="amd.20161004104904.1" a="E"><vh>創造力元素</vh>
-<v t="amd.20161004104904.2"><vh>創造能力三元素</vh></v>
+<v t="yen.20161011115740.1" a="E"><vh>相關課程</vh>
+<v t="yen.20161011115740.2"><vh>計算機程式系列課程</vh></v>
 </v>
-<v t="amd.20161004105131.1" a="E"><vh>六種表達</vh>
-<v t="amd.20161004105131.2"><vh>創造能力三元素</vh></v>
+<v t="amd.20161004105131.1" a="E"><vh>創造力</vh>
+<v t="amd.20161004105131.2"><vh>何謂創造力?</vh></v>
 </v>
-<v t="amd.20161004105716.1" a="E"><vh>協同設計</vh>
-<v t="amd.20161004105716.2"><vh>融入協同設計</vh></v>
+<v t="yen.20161011114704.1" a="E"><vh>創造力</vh>
+<v t="yen.20161011114704.2"><vh>何謂創造力?</vh></v>
+</v>
+<v t="yen.20161011121637.1"><vh>所謂自學</vh>
+<v t="yen.20161011121637.2"><vh>自學的訓練</vh></v>
+</v>
+<v t="amd.20161004105716.1"><vh>執行力</vh>
+<v t="amd.20161004105716.2"><vh>高效執行力</vh></v>
 </v>
 </v>
 <v t="amd.20161004101327.1" a="E"><vh>MD 投影片 (標題)</vh>
@@ -519,36 +525,17 @@ and images can be specified like so:
 
 						
 </t>
-<t tx="amd.20161004104641.2"># 機械設計主題教學
+<t tx="amd.20161004104641.2"># 計算機程式在教什麼?
 
-### 1. 強化創造能力 
-(Creative Competencies, CC1-3)
-### 2. 熟習六種表達 
-(Six Presentation Methods, SP1-6)
-### 3. 融入協同設計 
-(Collaborative Designs, CD1-4)
+## 創造力
+## 表達力
+以及
+## 協同力
 
 </t>
 <t tx="amd.20161004104820.1">&lt;section&gt;
 @others
 &lt;/section&gt;
-</t>
-<t tx="amd.20161004104904.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="amd.20161004104904.2"># 強化創造能力
-
-創造力至少包含三種元素:
-### 1. 自學能力 (CC1, Self-learning)
-### 2. 程式能力 (CC2, Programming)
-### 3. 想像能力 (CC3, Imagination)
-
 </t>
 <t tx="amd.20161004105131.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -559,14 +546,12 @@ and images can be specified like so:
 
 						
 </t>
-<t tx="amd.20161004105131.2"># 機械設計六種表達
+<t tx="amd.20161004105131.2"># 何謂創造力?
 
-### 1. 口語表達 (SP1, Oral Presentation)
-### 2. 文字表達 (SP2, Text Presentation)
-### 3. 2D 表達 (SP3, 2D Presentation)
-### 4. 3D 表達 (SP4, 3D Presentation)
-### 5. 理論表達 (SP5, Analytical Presentation)
-### 6. 實體表達 (SP6, Physical Presentation)
+## 能夠&lt;small&gt;&lt;span style="color:#FF0080"&gt;持續&lt;/span&gt;&lt;/small&gt;&lt;span style="color:#FFFF00"&gt;自學&lt;/span&gt;
+## 會安排&lt;small&gt;&lt;span style="color:#FF0080"&gt;高效&lt;/span&gt;&lt;/small&gt;&lt;span style="color:#FFFF00"&gt;可執行&lt;/span&gt;流程
+還有
+## 俱備&lt;small&gt;&lt;span style="color:#FF0080"&gt;豐富&lt;/span&gt;&lt;/small&gt;&lt;span style="color:#FFFF00"&gt;想像力&lt;/span&gt;
 
 </t>
 <t tx="amd.20161004105716.1">&lt;section data-markdown&gt;
@@ -578,14 +563,12 @@ and images can be specified like so:
 
 						
 </t>
-<t tx="amd.20161004105716.2"># 融入協同設計
+<t tx="amd.20161004105716.2"># 高效執行力
 
-如何融入協同產品設計?
-
-### 1. 了解電腦 (CD1, Computer)
-### 2. 了解網路 (CD2, Network)
-### 3. 了解協同設計適用之軟硬體工具 (CD3, Tools)
-### 4. 執行協同專案 (CD4, Project)
+## 用對的方法
+## 在對的時機
+## 找對的人
+## 作對的事
 
 
 </t>
@@ -847,5 +830,57 @@ Diff...
 <t tx="yen.20161011110116.7">2016 Fall 計算機程式課程
 </t>
 <t tx="yen.20161011110116.8"></t>
+<t tx="yen.20161011114704.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="yen.20161011114704.2"># 何謂創造力?
+
+## 能夠&lt;small&gt;&lt;span style="color:#FF0080"&gt;持續&lt;/span&gt;&lt;/small&gt;自學-&gt;&lt;span style="color:#FFFF00"&gt;不一定都要別人教&lt;/span&gt;
+## 會安排&lt;small&gt;&lt;span style="color:#FF0080"&gt;高效&lt;/span&gt;&lt;/small&gt;可執行流程-&gt;展現&lt;span style="color:#FFFF00"&gt;執行力&lt;/span&gt;
+&lt;span style="color:#00FF80"&gt;還有&lt;/span&gt;
+## 俱備&lt;small&gt;&lt;span style="color:#FF0080"&gt;豐富&lt;/span&gt;&lt;/small&gt;想像力-&gt;不受限, &lt;span style="color:#FFFF00"&gt;積極進行改造&lt;/span&gt;
+
+</t>
+<t tx="yen.20161011115740.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="yen.20161011115740.2"># 計算機程式系列課程
+
+## 網際內容管理
+## 電腦輔助設計實習
+還有
+## 協同產品設計實習
+也在研習&lt;span style="color:#FFFF00"&gt;創造力&lt;/span&gt;、&lt;span style="color:#FFFF00"&gt;表達力&lt;/span&gt;與&lt;span style="color:#FFFF00"&gt;協同力&lt;/span&gt;
+
+</t>
+<t tx="yen.20161011121637.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="yen.20161011121637.2"># 自學的訓練
+
+## 學員必須自己有學習動機
+## 能消化中英文資料
+## 從中體會學習的意義
+
+
+</t>
 </tnodes>
 </leo_file>
