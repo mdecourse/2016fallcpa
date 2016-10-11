@@ -28,9 +28,12 @@
 <v t="amd.20161004095719.1" a="E"><vh>封面投影片</vh>
 <v t="amd.20161004095719.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="amd.20161004104820.1"><vh>三大主題教學</vh>
-<v t="amd.20161004104641.1" a="E"><vh>主題教學</vh>
+<v t="amd.20161004104820.1" a="E"><vh>三大主題教學</vh>
+<v t="amd.20161004104641.1"><vh>主題教學</vh>
 <v t="amd.20161004104641.2"><vh>計算機程式在教什麼?</vh></v>
+</v>
+<v t="yen.20161011155543.1" a="E"><vh>主題教學內容</vh>
+<v t="yen.20161011155543.2"><vh>計算機程式在教什麼?</vh></v>
 </v>
 <v t="yen.20161011115740.1" a="E"><vh>相關課程</vh>
 <v t="yen.20161011115740.2"><vh>計算機程式系列課程</vh></v>
@@ -539,7 +542,7 @@ and images can be specified like so:
 
 ## 能夠&lt;small&gt;&lt;span style="color:#FF0080"&gt;持續&lt;/span&gt;&lt;/small&gt;&lt;span style="color:#FFFF00"&gt;自學&lt;/span&gt;
 ## 會安排&lt;small&gt;&lt;span style="color:#FF0080"&gt;高效&lt;/span&gt;&lt;/small&gt;&lt;span style="color:#FFFF00"&gt;可執行&lt;/span&gt;流程
-還有
+&lt;span style="color:#00FF80"&gt;還有&lt;/span&gt;
 ## 俱備&lt;small&gt;&lt;span style="color:#FF0080"&gt;豐富&lt;/span&gt;&lt;/small&gt;&lt;span style="color:#FFFF00"&gt;想像力&lt;/span&gt;
 
 </t>
@@ -826,7 +829,7 @@ Diff...
 
 ## 網際內容管理
 ## 電腦輔助設計實習
-還有
+&lt;span style="color:#00FF80"&gt;還有&lt;/span&gt;
 ## 協同產品設計實習
 也在研習&lt;span style="color:#FFFF00"&gt;創造力&lt;/span&gt;、&lt;span style="color:#FFFF00"&gt;表達力&lt;/span&gt;與&lt;span style="color:#FFFF00"&gt;協同力&lt;/span&gt;
 
@@ -1113,6 +1116,23 @@ Brython (Javascript): https://www.brython.info/
 ####機構模擬
 ####猜顏色遊戲
 ####網際對戰遊戲
+</t>
+<t tx="yen.20161011155543.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="yen.20161011155543.2"># 計算機程式在教什麼?
+
+## &lt;span style="color:#FFFF00"&gt;創造力&lt;/span&gt;&lt;small&gt;=自學力+程式力+想像力&lt;/small&gt;
+## &lt;span style="color:#FFFF00"&gt;表達力&lt;/span&gt;&lt;small&gt;=口語+文字+2D+3D+理論+實體&lt;/small&gt;
+&lt;span style="color:#00FF80"&gt;以及&lt;/span&gt;
+## &lt;span style="color:#FFFF00"&gt;協同力&lt;/span&gt;&lt;small&gt;=電腦+網路+工具+專案&lt;/small&gt;
+
 </t>
 </tnodes>
 </leo_file>
