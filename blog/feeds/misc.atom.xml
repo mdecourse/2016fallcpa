@@ -695,8 +695,8 @@ ctx.fill()
 &lt;/script&gt;
 
 &lt;pre class="brush: python"&gt;
-lt;canvas id="rocflag" width="650" height="450"&amp;amp;gt;&amp;amp;lt;/canvas&amp;amp;gt;
-&amp;amp;lt;script type="text/python3"&amp;amp;gt;
+&amp;lt;canvas id="rocflag" width="650" height="450"&amp;gt;&amp;lt;/canvas&amp;gt;
+&amp;lt;script type="text/python3"&amp;gt;
 # 導入 doc
 from browser import document as doc
 import math
@@ -748,5 +748,5 @@ ctx.closePath()
 # 填色設為白色
 ctx.fillStyle = '#fff'
 ctx.fill()
-&amp;amp;lt;/script&amp;amp;gt;
+&amp;lt;/script&amp;gt;
 &lt;/pre&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry></feed>
