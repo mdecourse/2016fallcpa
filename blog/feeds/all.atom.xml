@@ -163,8 +163,8 @@ canvas.bind('click', on_canvas_click, False)
 
 &lt;p&gt;上面小球自由落體的繪圖程式:&lt;/p&gt;
 &lt;pre class="brush: python"&gt;
-&lt;canvas id="plotarea" width="600" height="400"&gt;&lt;/canvas&gt;
-&lt;script type="text/python3"&gt;
+&amp;lt;canvas id="plotarea" width="600" height="400"&amp;gt;&amp;lt;/canvas&amp;gt;
+&amp;lt;script type="text/python3"&amp;gt;
 # 導入 browser 模組中的 document, 並設為 doc 變數
 from browser import document as doc
 # 導入數學模組
@@ -206,24 +206,24 @@ for i in range(n):
 
 # 更新第 i 球 Y 座標的運算邏輯
 def updateY(i):
-    if ((y[i]+r) &lt; height):
+    if ((y[i]+r) &amp;lt; height):
         #y = height
         vy[i] += g
     else:
         vy[i] = -vy[i]*cor
         vx[i] *= fr
     y[i] += vy[i]
-    if ((y[i]+r) &gt; height):
+    if ((y[i]+r) &amp;gt; height):
         y[i] = height-r
 
 # 更新第 i 球 X 座標的運算邏輯
 def updateX(i):
-    if ((x[i]+r) &gt;= width or (x[i]-r) &lt;= 0):
+    if ((x[i]+r) &amp;gt;= width or (x[i]-r) &amp;lt;= 0):
         vx[i] = -vx[i]*cor
     x[i] += vx[i]
-    if ((x[i]+r) &gt; width):
+    if ((x[i]+r) &amp;gt; width):
         x[i] = width-r
-    elif ((x[i]-r) &lt; 0):
+    elif ((x[i]-r) &amp;lt; 0):
         x[i] = r
 
 # 畫圓函式
@@ -259,14 +259,14 @@ def on_canvas_click(ev):
 
 # 只要使用者點擊在畫布上任何地方, 即執行 on_canvas_click 函式
 canvas.bind('click', on_canvas_click, False)
-&lt;/script&gt;
+&amp;lt;/script&amp;gt;
 &lt;/pre&gt;
 
 &lt;p&gt;繪製日本國旗:&lt;/p&gt;
 &lt;p&gt;步驟1, 先能畫一條線:&lt;/p&gt;
 &lt;pre class="brush: python"&gt;
-&lt;canvas id="japanflag1" width="600" height="250"&gt;&lt;/canvas&gt;
-&lt;script type="text/python3"&gt;
+&amp;lt;canvas id="japanflag1" width="600" height="250"&amp;gt;&amp;lt;/canvas&amp;gt;
+&amp;lt;script type="text/python3"&amp;gt;
 from browser import document as doc
 import math
 # 準備繪圖畫布
@@ -287,7 +287,7 @@ ctx.strokeStyle = "blue"
 # 實際執行畫線
 ctx.stroke()
 ctx.closePath()
-&lt;/script&gt;
+&amp;lt;/script&amp;gt;
 &lt;/pre&gt;
 
 &lt;!-- 以下實際利用  Brython 畫一條直線 --&gt;
@@ -319,8 +319,8 @@ ctx.closePath()
 
 &lt;p&gt;接著畫四條直線:&lt;/p&gt;
 &lt;pre class="brush: python"&gt;
-&lt;canvas id="japanflag2" width="600" height="400"&gt;&lt;/canvas&gt;
-&lt;script type="text/python"&gt;
+&amp;lt;canvas id="japanflag2" width="600" height="400"&amp;gt;&amp;lt;/canvas&amp;gt;
+&amp;lt;script type="text/python"&amp;gt;
 # 導入 doc
 from browser import document as doc
 import math
@@ -355,7 +355,7 @@ draw_line(10, 310, 410, 310)
 # 再畫兩條垂直線
 draw_line(10, 10, 10, 310)
 draw_line(410, 10, 410, 310)
-&lt;/script&gt;
+&amp;lt;/script&amp;gt;
 &lt;/pre&gt;
 
 &lt;canvas id="japanflag2" width="600" height="350"&gt;&lt;/canvas&gt;
@@ -399,8 +399,8 @@ draw_line(410, 10, 410, 310)
 
 &lt;p&gt;接著在四條直線中央畫一個圓:&lt;/p&gt;
 &lt;pre class="brush: python"&gt;
-&lt;canvas id="japanflag3" width="650" height="450"&gt;&lt;/canvas&gt;
-&lt;script type="text/python"&gt;
+&amp;lt;canvas id="japanflag3" width="650" height="450"&amp;gt;&amp;lt;/canvas&amp;gt;
+&amp;lt;script type="text/python"&amp;gt;
 from browser import document
 import math
 
@@ -450,7 +450,7 @@ ctx.stroke()
 ctx.fillStyle = 'rgb(255, 0, 0)'
 ctx.fill()
 ctx.closePath()
-&lt;/script&gt;
+&amp;lt;/script&amp;gt;
 &lt;/pre&gt;
 
 &lt;canvas id="japanflag3" width="650" height="450"&gt;&lt;/canvas&gt;
@@ -509,8 +509,8 @@ ctx.closePath()
 
 &lt;p&gt;然後將各繪圖模組寫成函式:&lt;/p&gt;
 &lt;pre class="brush: python"&gt;
-&lt;canvas id="japanflag4" width="650" height="450"&gt;&lt;/canvas&gt;
-&lt;script type="text/python"&gt;
+&amp;lt;canvas id="japanflag4" width="650" height="450"&amp;gt;&amp;lt;/canvas&amp;gt;
+&amp;lt;script type="text/python"&amp;gt;
 # 導入 doc
 from browser import document as doc
 import math
@@ -570,7 +570,7 @@ y_center = 10 + width/2
 # 中間圓的直徑為寬的 3/5
 radius = width*3/5/2
 draw_circle(x_center, y_center, radius)
-&lt;/script&gt;
+&amp;lt;/script&amp;gt;
 &lt;/pre&gt;
 
 &lt;canvas id="japanflag4" width="650" height="450"&gt;&lt;/canvas&gt;
@@ -695,8 +695,8 @@ ctx.fill()
 &lt;/script&gt;
 
 &lt;pre class="brush: python"&gt;
-&lt;canvas id="rocflag" width="650" height="450"&gt;&lt;/canvas&gt;
-&lt;script type="text/python3"&gt;
+lt;canvas id="rocflag" width="650" height="450"&amp;amp;gt;&amp;amp;lt;/canvas&amp;amp;gt;
+&amp;amp;lt;script type="text/python3"&amp;amp;gt;
 # 導入 doc
 from browser import document as doc
 import math
@@ -748,5 +748,5 @@ ctx.closePath()
 # 填色設為白色
 ctx.fillStyle = '#fff'
 ctx.fill()
-&lt;/script&gt;
+&amp;amp;lt;/script&amp;amp;gt;
 &lt;/pre&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry></feed>
