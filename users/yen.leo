@@ -25,7 +25,7 @@
 <v t="amd.20161004083800.5" a="E"><vh>body</vh>
 <v t="amd.20161004083800.6" a="E"><vh>reveal div</vh>
 <v t="amd.20161004083800.7" a="E"><vh>slides div</vh>
-<v t="amd.20161004095719.1"><vh>封面投影片</vh>
+<v t="amd.20161004095719.1" a="E"><vh>封面投影片</vh>
 <v t="amd.20161004095719.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="yen.20161016023122.1" a="E"><vh>快捷鍵</vh>
@@ -321,6 +321,8 @@ Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
 [乙班計算機程式課程網誌](https://mdecourse.github.io/2016fallcpb/blog)
 
 [計算機程式教學影片](https://vimeo.com/user24079973)
+
+[電腦輔助設計室電腦硬體](http://project.mde.tw/blog/yen-dian-nao-fu-zhu-she-ji-shi-dian-nao-pei-zhi.html)
 </t>
 <t tx="amd.20161004104641.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
