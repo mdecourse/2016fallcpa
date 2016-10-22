@@ -175,6 +175,7 @@
 </v>
 </v>
 <v t="amd.20161004202833.1"><vh>@edit ../README.md</vh></v>
+<v t="yen.20161022111056.1"><vh>@button https server</vh></v>
 </vnodes>
 <tnodes>
 <t tx="amd.20151215170031.1"></t>
@@ -1019,5 +1020,27 @@ make.start()
 * 按 Esc 可以退出全螢幕或全域檢視 (Escape)
 
 </t>
+<t tx="yen.20161022111056.1">@language python
+import os
+import subprocess
+import threading
+import http.server, ssl
+
+def domake():
+    # build directory
+    os.chdir("./../")
+    server_address = ('localhost', 4443)
+    httpd = http.server.HTTPServer(server_address, http.server.SimpleHTTPRequestHandler)
+    httpd.socket = ssl.wrap_socket(httpd.socket,
+                                   server_side=True,
+                                   certfile='localhost.crt',
+                                   keyfile='localhost.key',
+                                   ssl_version=ssl.PROTOCOL_TLSv1)
+    g.es("4443 啟動 https:")
+    httpd.serve_forever()
+
+# 利用執行緒執行 https 伺服器
+make = threading.Thread(target=domake)
+make.start()</t>
 </tnodes>
 </leo_file>
