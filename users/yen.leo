@@ -176,6 +176,7 @@
 </v>
 <v t="amd.20161004202833.1"><vh>@edit ../README.md</vh></v>
 <v t="yen.20161022111056.1"><vh>@button https server</vh></v>
+<v t="yen.20161022151749.1"><vh>產生 .key 與 .crt</vh></v>
 </vnodes>
 <tnodes>
 <t tx="amd.20151215170031.1"></t>
@@ -1029,18 +1030,21 @@ import http.server, ssl
 def domake():
     # build directory
     os.chdir("./../")
-    server_address = ('localhost', 4443)
+    server_address = ('localhost', 1443)
     httpd = http.server.HTTPServer(server_address, http.server.SimpleHTTPRequestHandler)
     httpd.socket = ssl.wrap_socket(httpd.socket,
                                    server_side=True,
                                    certfile='localhost.crt',
                                    keyfile='localhost.key',
                                    ssl_version=ssl.PROTOCOL_TLSv1)
-    g.es("4443 啟動 https:")
+    print("1443 https server started")
     httpd.serve_forever()
 
 # 利用執行緒執行 https 伺服器
 make = threading.Thread(target=domake)
 make.start()</t>
+<t tx="yen.20161022151749.1">sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout localhost.key -out localhost.crt
+
+</t>
 </tnodes>
 </leo_file>
